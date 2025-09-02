@@ -1,0 +1,7 @@
+    - from:
+        uri: timer:hello?period=5000
+        steps:
+          - setBody:
+              constant: "Hello from Karavan!"
+          - to: "log:info"
+    

@@ -1,0 +1,7 @@
+    kind: Project
+    apiVersion: v1
+    metadata:
+      name: karavan-test-project
+    spec:
+      runtime: camel-yaml-dsl
+    
